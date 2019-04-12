@@ -1,0 +1,75 @@
+[
+    {
+        "id": 1,
+        "name": "Luke Skywalker",
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/9b/Luke_Skywalker.png",
+        "count": 0
+    },
+    {
+        "id": 2,
+        "name": "Princess Leia",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Princess_Leia%27s_characteristic_hairstyle.jpg/220px-Princess_Leia%27s_characteristic_hairstyle.jpg",
+        "count": 0
+    },
+    {
+        "id": 3,
+        "name": "Han Solo",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg/220px-Han_Solo_depicted_in_promotional_image_for_Star_Wars_%281977%29.jpg",
+        "count": 0
+    },
+    {
+        "id": 4,
+        "name": "Chewbacca",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/Chewbacca-2-.jpg/220px-Chewbacca-2-.jpg",
+        "count": 0
+    },
+    {
+        "id": 5,
+        "name": "R2-D2",
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/39/R2-D2_Droid.png",
+        "count": 0
+    },
+    {
+        "id": 6,
+        "name": "C3PO",
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/5c/C-3PO_droid.png",
+        "count": 0
+    },
+    {
+        "id": 7,
+        "name": "Obi-Wan Kenobi",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Ben_Kenobi.png/220px-Ben_Kenobi.png",
+        "count": 0
+    },
+    {
+        "id": 8,
+        "name": "Yoda",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Yoda_Empire_Strikes_Back.png/220px-Yoda_Empire_Strikes_Back.png",
+        "count": 0
+    },
+    {
+        "id": 9,
+        "name": "Darth Vader",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Darth_Vader.jpg/220px-Darth_Vader.jpg",
+        "count": 0
+    },
+    {
+        "id": 10,
+        "name": "Darth Maul",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/Darth_Maul.png/220px-Darth_Maul.png",
+        "count": 0
+    },
+    {
+        "id": 11,
+        "name": "Emperor Palpatine",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8f/Emperor_RotJ.png/220px-Emperor_RotJ.png",
+        "count": 0
+    },
+    {
+        "id": 12,
+        "name": "Boba Fett",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/FettbobaJB.png/220px-FettbobaJB.png",
+        "count": 0
+    }
+]
+
