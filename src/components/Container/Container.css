@@ -1,9 +1,11 @@
 .container {
     width: 100%;
     flex-flow: row wrap;
-    align-content: flex-start;
+    /* align-content: flex-start; */
     overflow: auto;
     background-image: url("https://images4.alphacoders.com/120/12066.jpg");
     background-size: cover;
+    justify-content: center;
+    margin: 30px;
 
 }

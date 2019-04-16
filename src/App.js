@@ -23,6 +23,7 @@ class App extends Component {
     score: 0,
     highscore: 0,
     clicked: [],
+    winState: ""
   };
 
   handleClick = id => {
@@ -30,6 +31,7 @@ class App extends Component {
       this.handleIncrement();
       this.setState({ clicked: this.state.clicked.concat(id) });
     } else {
+      alert("You have failed!");
       this.handleReset();
     }
   };
@@ -38,22 +40,27 @@ class App extends Component {
     const newScore = this.state.score +1;
     this.setState({
       score: newScore,
+      winState: ""
     });
     if (newScore >= this.state.highscore) {
       this.setState({ highscore: newScore });
     }
     else if (newScore === 12) {
-      alert ("Well done, my young apprentice!");
+      console.log("You got them all correct")
+      this.setState({ winState: "You got them all correct "});
     }
-
+    
     this.handleShuffle();
+    
   };
+
     
   handleReset = () => {
     this.setState({
       score: 0,
       highscore: this.state.highscore,
-      clicked: []
+      clicked: [],
+      winState: "Play Again"
     });
     this.handleShuffle();
   };
@@ -62,6 +69,7 @@ class App extends Component {
     let shuffledCards = shuffleCards(cards);
     this.setState({ cards: shuffledCards });
   };
+  
 
   
 

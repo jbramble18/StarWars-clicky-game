@@ -2,15 +2,18 @@
     width: 100%;
     height: 50px;
     font-size: 2rem;
-    color: #2A77AE;
-    margin-bottom: 10px;
-    background-color: goldenrod;
+    color: rgb(10, 10, 10);
+    margin: 10px;
+    background-color: rgb(204, 165, 66);
   }
   
   .title {
     float: left;
+    margin-left: 20px;
   }
   
   .scores {
     float: right;
+    margin-right: 20px;
+
   }
